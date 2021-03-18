@@ -1,0 +1,14 @@
+{
+	"name": "integrated-hero-block/integrated-hero",
+	"title": "Integrated Hero",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "An integrated editing experience with a build in Hero.",
+	"textdomain": "integrated-hero",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

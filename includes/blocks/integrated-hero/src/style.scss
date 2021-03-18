@@ -1,0 +1,76 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-integrated-hero-block-integrated-hero {
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	min-height: 500px;
+	padding: 2rem;
+	position: relative;
+	width: 100%;
+
+	h1 {
+		font-size: 3.5rem;
+		margin: 0 0 1rem 0;
+	}
+
+	p {
+		font-size: 1.5rem;
+	}
+
+	& img {
+		left: 0;
+		height: 100%;
+		object-fit: cover;
+		object-position: 0 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 1;
+	}
+
+	& h1,
+	& p {
+		position: relative;
+		z-index: 2;
+	}
+
+	&__content {
+		max-width: 600px;
+	}
+
+	&__title {
+		color: #fff;
+		font-size: 2.5rem;
+		line-height: 1.4;
+		margin: 1rem 0;
+		font-family: 'Noto Serif';
+		font-weight: bold;
+	}
+
+	.media-controls {
+		background-color: #fff;
+		left: 0;
+		position: absolute;
+		top: 0;
+		z-index: 10;
+	}
+
+}
+
+
